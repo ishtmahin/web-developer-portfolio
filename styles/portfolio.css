@@ -96,10 +96,23 @@ nav a {
 }
 
 /*main Related Styles*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 /*About style*/
 .about{
     padding: 130px;
     background-color: #FFF8F3;
     margin: 50px 0px;
     border-radius: 10px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
 }
